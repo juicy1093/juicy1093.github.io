@@ -1,0 +1,278 @@
+* {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: "Montserrat", sans-serif;
+        text-decoration: none;
+}
+
+.nav-container {
+        width: 1920px;
+        height: 1080px;
+        background-image: url(../Rectangle\ 1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        padding-top: 2%;
+}
+
+.nav-menu {
+        display: flex;
+        gap: 50px;
+
+        list-style: none;
+}
+
+.nav-text {
+        display: flex;
+        justify-content: space-around;
+
+        font-family: Montserrat;
+        font-size: 25px;
+        font-weight: 400;
+        color: #FFFFFF;
+        transition: 0.3s;
+}
+
+.nav-text:hover {
+        color: #4928cc;
+}
+
+.nav-word {
+        border: 1px solid #130E27;
+        padding: 5px 15px;
+        border-radius: 10px;
+        background-color: #130E27;
+}
+
+.nav-text-sub {
+        display: flex;
+        flex-direction: column;
+        margin: 150px 0px 0px 190px;
+}
+
+.nav-textt {
+        font-family: Montserrat;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 100px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+}
+
+.text-main {
+        color: #130E27;
+}
+
+.nav-subtitle {
+        margin-top: 50px;
+
+        font-family: PT Serif;
+        font-size: 20px;
+        font-weight: lighter;
+        color: #FFFFFF;
+}
+
+.menu-container {
+        padding: 50px 190px;
+}
+
+.title-head {
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+}
+
+.service-title-word {
+        color: #C62314;
+}
+
+.service-info-cont {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+}
+
+.service-main {
+        margin-top: 83px;
+        text-align: center;
+}    
+
+.fa-regular {
+        font-size: 120px;
+        margin-bottom: 60px;
+}
+
+.service-text {
+        font-family: "PT Serif";
+        font-size: 20px;
+        font-weight: 400;
+}
+
+.story-container {
+        width: 1920px;
+        height: 124px;
+        background: #130E27;
+}
+
+.text-story {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 34px;
+}
+
+.story-head {
+        font-family: PT Serif;
+        font-size: 20px;
+        font-weight: 300;
+        color: #FFFFFF;
+}
+
+.story-button {
+        color: #FFFFFF;
+        font-family: Montserrat;
+        font-size: 22px;
+        font-weight: 300;
+        text-transform: uppercase;
+
+        border: 1px solid #C62314;
+        padding: 18px 68px;
+        background-color: #C62314;
+        border-radius: 5px;
+
+        transition: 0.5s;
+}
+
+.story-button:hover {
+        background-color: #4928cc;
+}
+
+.pricing-container {
+        width: 1920px;
+        height: 691px;
+        background: #EFEFEF;
+}
+
+.text-header {
+        font-family: Montserrat;
+        font-size: 50px;
+        font-weight: 700;
+        text-transform: uppercase;
+
+        text-align: center;
+        padding-top: 50px;
+}
+
+.text-price {
+        display: flex;
+        justify-content: space-evenly;
+
+        margin-top: 50px;
+}
+
+.price-traffics {
+        width: 340px;
+        height: 460px;
+        top: 1484px;
+        left: 910px;
+        gap: 0px;
+        border-radius: 5px 0px 0px 0px;
+        opacity: 0px;
+        background: #FFFFFF;
+
+        text-align: center;
+        padding-top: 50px;
+        font-family: PT Serif;
+        font-size: 22px;
+        font-weight: 400;
+}
+
+ul {
+        list-style: none;
+}
+
+.price-header {
+        font-family: PT Serif;
+        font-size: 22px;
+        font-weight: 400;
+}
+
+.price-cost {
+        padding-top: 40px;
+
+        color: #C62314;
+        font-family: Montserrat;
+        font-size: 50px;
+        font-weight: 700;
+}
+
+.price-info {
+        padding-top: 30px;
+
+        font-family: PT Serif;
+        font-size: 20px;
+        font-weight: 500;
+}
+
+.price-btn {
+        padding-top: 40px;
+}
+
+.price-button {
+        padding: 11px 81px;
+        border: 1px solid #130E27;
+        color: #FFFFFF;
+        background-color: #130E27;
+        border-radius: 5px;
+
+        transition: 0.5s;
+}
+
+.price-button:hover {
+        background-color: #4928cc;
+}
+
+.price-button-mid {
+        padding: 11px 81px;
+        border: 1px solid #C62314;
+        border-radius: 5px;
+        background: #C62314;
+        color: #FFFFFF;
+
+        transition: 0.5s;
+}
+
+.price-button-mid:hover {
+        background-color: #4928cc;
+}
+
+.footer-container {
+        background: #130E27;
+        width: 1920px;
+        height: 230px;
+}
+
+.info {
+        padding: 81px 192px;
+        display: flex;
+        justify-content: space-between;
+}
+
+.info-text {
+        color: #FFFFFF;
+        font-family: PT Serif;
+        font-size: 20px;
+        font-weight: 200;
+}
+
+.info-word {
+        color: #C62314;
+}
